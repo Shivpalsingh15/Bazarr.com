@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+#lastdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-right: 2%;
+    width: 20%;
+}
+/* <!-- sorting and filtering  --> */
+
+#filter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+}
+#filter > select{
+padding: 6px 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: teal;
+}
