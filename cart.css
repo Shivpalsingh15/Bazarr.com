@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+nav a {
+  text-decoration: none;
+}
+#lastdiv a {
+  text-decoration: none;
+}
+#lastdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid #ccc; */
+  margin-right: 2%;
+  width: 20%;
+}
+#container {
+  /* background-color: #fae8ff; */
+  /* border:2px solid black; */
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  /* padding: 5px; */
+}
+#container > div {
+  display: flex;
+  width: 70%;
+  background-color: #d1fae5;
+  border-radius: 20px;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid gray;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+#imgdiv {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+}
+#imgdiv > img {
+  width: 30%;
+  height: 50%;
+}
+#textdiv {
+  /* border: 1px solid red; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  width: 65%;
+  height: 100%;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+
+/* cart functionality  */
+#qntydiv {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+  /* border: 0.5px solid gray;  */
+  border-radius: 10px;
+}
+#qntydiv > button {
+  padding: 0px 15px;
+  font-size: medium;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  /* background-color: lightskyblue; */
+}
+#qntydiv > button:hover {
+  cursor: pointer;
+  background-color: #e5e5e5;
+}
+
+/* checkout */
+#checkout {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  height: 250px;
+  width: 200px;
+  border: 1px solid red;
+  border-radius: 20px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
+#checkout > div {
+  display: flex;
+  padding: 10px 5px;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+#checkout > div:first-child {
+  /* background-color: #f1f5f9; */
+  color: #6b7280;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 10px;
+}
+#checkout > div:nth-last-child(2) {
+  margin-top: 20px;
+  border-bottom: 0.5px solid black;
+  border-top: 0.5px solid black;
+}
